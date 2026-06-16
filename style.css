@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   font-family: "Space Grotesk", system-ui, sans-serif;
-  background: var(--bg);
+  background: #ff1a1a;
   color: var(--fg);
   min-height: 100vh;
   display: flex;
