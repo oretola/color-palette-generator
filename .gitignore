@@ -1,0 +1,12 @@
+# Vercel
+.vercel
+
+# Local Claude Code preview tooling
+.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
