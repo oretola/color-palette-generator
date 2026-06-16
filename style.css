@@ -190,6 +190,36 @@ body.is-locked { overflow: hidden; }
   padding: 2px 7px;
 }
 
+/* ---------- Page header ---------- */
+.page-header {
+  text-align: center;
+  padding: 8px 20px 18px;
+  z-index: 20;
+}
+
+.page-title {
+  font-size: clamp(28px, 4.5vw, 46px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  background: linear-gradient(100deg, #ffd86b, #fc6076 45%, #6a82fb);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: drift 6s ease infinite;
+}
+
+.page-byline {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 /* ---------- Palette ---------- */
 .palette {
   flex: 1;
